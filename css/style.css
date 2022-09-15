@@ -46,15 +46,36 @@ h1 {
   margin-bottom: 60px;
 }
 
-.team-cards {
-}
-
 .card {
+  min-width: 282px;
   background-color: rgb(15, 14, 23);
   width: calc(100% / 3 - 30px);
-  margin: 0 15px;
+  margin: 0 15px 25px;
+  box-shadow: 2px 2px 5px black;
+}
+/* ===========
+    Info Card
+================ */
+.card > img {
+  width: 100px;
 }
 
-.card img {
-  width: 100px;
+.card > .card-info {
+  width: calc(100% - 100px);
+  padding: 10px;
+  color: white;
+}
+
+.card > .card-info a {
+  text-decoration: none;
+  color: lightskyblue;
+}
+
+.card > .card-info small {
+  font-weight: lighter;
+}
+
+.card > .card-info * {
+  display: block;
+  margin: 3px 0;
 }
