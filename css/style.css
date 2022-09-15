@@ -60,6 +60,10 @@ h1 {
   width: 100px;
 }
 
+.card > .clearfix .card-info {
+  float: left;
+}
+
 .card > .card-info {
   width: calc(100% - 100px);
   padding: 10px;
