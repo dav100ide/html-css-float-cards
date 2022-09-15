@@ -18,6 +18,11 @@
   display: table;
   clear: both;
 }
+
+.clearfix > * {
+  float: left;
+}
+
 /* ============
     typography
 ================ */
@@ -32,7 +37,7 @@ h1 {
     sezione membri del team
 ========================== */
 .team-description {
-  padding: 35px 0;
+  padding: 35px 0 60px;
   text-align: center;
 }
 
@@ -42,5 +47,14 @@ h1 {
 }
 
 .team-cards {
-  background-color: rgb(141, 130, 214);
+}
+
+.card {
+  background-color: rgb(15, 14, 23);
+  width: calc(100% / 3 - 30px);
+  margin: 0 15px;
+}
+
+.card img {
+  width: 100px;
 }
